@@ -1,5 +1,7 @@
 # 激光测距链路预算仿真工具（Laser Ranging Link Budget）
 
+**仓库**：https://github.com/xiyan122/laser-ranging-link-budget
+
 基于**公开教科书公式**的激光测距接收链路预算与信噪比（SNR）仿真脚本。  
 命令行 + 三张权衡曲线图即为完整交付；不含 GUI / 数据库 / Web。
 
