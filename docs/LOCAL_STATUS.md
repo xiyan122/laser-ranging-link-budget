@@ -39,7 +39,14 @@ MIMO 内置 Python 有 numpy 但无 matplotlib，出图请用系统 Python。
 
 ## 还需你完成的
 
-1. **与导师确认**开源公式小工具（`docs/security_checklist.md` 第 3 项）
-2. 创建 **GitHub 公开仓库**，上传本目录（可去掉 `docs/acceptance.md` 等过程文件，或保留）
-3. 确认 README 链接、截图 3 张图
-4. 把 A-7 简历条目写入 A 版简历
+1. **与导师确认**开源公式小工具（`docs/security_checklist.md` 第 3 项）——仓库已公开，尽快补沟通记录
+2. ✅ GitHub 公开仓库：**https://github.com/xiyan122/laser-ranging-link-budget**
+3. 在浏览器打开仓库链接，确认 README / 三张图 / LICENSE 可见
+4. 把 A-7 简历条目写入 A 版简历，链接可写在项目旁
+
+### 推送说明（2026-09-18）
+
+- 远端：`git@github.com:xiyan122/laser-ranging-link-budget.git`
+- 本机 `https://github.com` 直连不稳，最终经 GitHub Contents API 上传全部 18 个文件
+- 本地 git 历史与远端 API 提交不同源；若要以本地 git 为准，在网络正常时：
+  `git pull --rebase origin main` 再 `git push`（勿在未确认时 force push）
